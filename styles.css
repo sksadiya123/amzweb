@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #232f3e;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-section {
+  padding: 1rem;
+}
+
+.product-section h2 {
+  margin-bottom: 0.5rem;
+}
+
+.product-row {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.product-card {
+  min-width: 200px;
+  height: 250px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  flex-shrink: 0;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  background-color: #232f3e;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+.product-d-purchase .btn{
+    outline: none;
+    border:none;
+    background: #ffd814;
+    width:100%;
+    padding: 10px 0;
+    margin-top:10px;
+    border-radius: 50px;
+    cursor:pointer;
+}
+
+.footer {
+  background-color: #232f3e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.products-slider .h1{
+    text-align: center;
+}
